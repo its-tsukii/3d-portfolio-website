@@ -3,74 +3,98 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Hey, I’m Aayush Kukade – your friendly DevOps enthusiast and Cloud explorer. When I’m not wrangling Docker containers or trying to decode Kubernetes, you’ll find me solving algorithms like they’re puzzles (promise, no boring tech talk here!). I’m currently pursuing my Master's in Computer Applications and a Diploma in Programming from IITM as part of the IITM BS Degree Program – because who doesn’t love juggling two degrees?
+I’m on a mission to build efficient, scalable systems and deploy them faster than you can say "CI/CD." When I’m not coding, I’m usually writing about it on my blog or sharing memes with fellow DevOps geeks!`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I'm a Cloud/DevOps enthusiast with hands-on experience in Cloud technologies, Docker, Kubernetes, and CI/CD pipelines. I specialize in building scalable, automated systems that run smoothly in production. With a strong problem-solving mindset and a passion for backend development, I’m always looking for ways to optimize processes and streamline deployments. I bring technical expertise, a drive for continuous learning, and a commitment to delivering reliable, efficient solutions.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    year: "2025 - Present",
+    role: "Cloud Intern",
+    company: "NullClass",
+    description: `Explored cloud deployment, automation, and monitoring. Worked with AWS and basic DevOps practices to deploy scalable applications.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2025 - Present",
+    role: "Devops Intern",
+    company: "Elevate Labs",
+    description: `Building CI/CD pipelines using Jenkins and GitHub Actions. Working with Docker, web app deployment, and real-world DevOps workflows.`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "2025 - Present",
+    role: "Cloud Intern",
+    company: "Smart Internz",
+    description: `Worked on Google Cloud projects involving VM instances, storage, and basic networking. Gained hands-on experience with GCP tools and cloud architecture fundamentals.`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2025 - Present",
+    role: "Software Trainee - Onsite",
+    company: "Softronix Pvt. Ltd.",
+    description: `Learned to build robust, scalable end-to-end software using Java and Python. Gained experience in system design and explored some cloud fundamentals along the way.`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+  },
+  {
+    year: "2025/01 - 2025/4",
+    role: "Cloud Intern - Remote",
+    company: "UptoSkills",
+    description: `Worked on deploying a simple web app to AWS using EC2 and S3. Got hands-on with Docker, basic CI/CD, and cloud infrastructure setup.`,
+    technologies: ["AWS", "GCP", "Go", "Docker", "K8s"],
+  },
+  {
+    year: "2024/11 - 2024/12",
+    role: "AI Intern - Remote",
+    company: "Microsoft & SAP - AICTE",
+    description: `Designed and implemented a working prototype to address real-world challenges under the guidance of industry
+experts.... Collaborated with mentors to refine the project and present a comprehensive solution at a regional showcase event
+evaluated by industry leaders.`,
+    technologies: ["Python", "TensorFlow", "Flask", "OpenCV"],
+  },
+  {
+    year: "2024/09 - 2024/10",
+    role: "Python Intern - Remote",
+    company: "Ybi Foundation",
+    description: `Developed Python projects focusing on data structures and API integration, improving project efficiency by 15%... Collaborated with instructors and peers through live classes and 1:1 doubt resolution sessions, improving communication and teamwork skills.`,
+    technologies: ["Scikit-learn", "Tensor", "Python", "Sqlite"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "E-Commerce Website RealTime Deployment On Aws",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["AWS", "Jenkins", "React", "Node.js", "MongoDB" , "HTML", "CSS", "EC2", "S3", "GitHub"],
   },
   {
-    title: "Task Management App",
+    title: "Book Recommendation System ",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Developed a collaborative-filtering ML model using Flask. Improved accuracy by 20% through fine-tuning. Also utilizing libraries like sci-kit, pandas matplotlib, seaborn. Deployed the project with koyeb at (brs-python.koyeb.app) utilizing mechanisms such as docker pipeline etc.",
+    technologies: ["Python", "HTML", "CSS", "Flask", "ArgoCD", "Scikit-Learn"],
   },
   {
-    title: "Portfolio Website",
+    title: "3D - Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A personal portfolioCreated a personal portfolio using React and Tailwind CSS With libraies motion-framer ,focusing on user experience and design . website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "React", "Bootstrap", "Motion-Framer", "Anime-js", "Vite18 & Vue.js"],
   },
   {
-    title: "Blogging Platform",
+    title: "A Movie Recommendation Platform",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a Movie Website Leveraging the use of HTML, CSS, JavaScript, JAVA, MySQL .Integrated an Admin Panel For Insert, Update, Delete Queries in the Owner Model. Made Use of Google Translate Api for Multiple linguistic Language Support Focused on delivering an optimized user experience with intuitive design and seamless navigation.",
+    technologies: ["HTML", "CSS", "Java EE", "", "mySQL"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Rajapeth, Amravati, Zip Code - 444601",
+  phoneNo: "+91 86688 49761 ",
+  email: "akukade10@gmail.com",
 };
