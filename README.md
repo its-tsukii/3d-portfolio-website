@@ -71,7 +71,7 @@ Deployed with CI/CD
 Lightweight and fast (Vite-powered ⚡)
 
 🤝 Connect with Me
-📧 Email: kukadeaayush.dev@gmail.com
+📧 Email: akukade10@gmail.com
 
 🔗 LinkedIn: linkedin.com/in/aayushkukade
 
