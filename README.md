@@ -44,21 +44,21 @@ Icons animate using Framer Motion. Includes tools like:
 
 ## 📦 Run Locally
 
-```bash
+```
 git clone https://github.com/its-tsukii/3d-portfolio-website.git
 cd 3d-portfolio-website
 npm install
 npm run dev
+```
 🚀 Deployment (via GitHub Actions)
 The site auto-deploys on every push to the main branch using GitHub Actions.
 The dist/ folder is pushed to the gh-pages branch and served through GitHub Pages.
 
 Manual Build (if needed):
-bash
-Copy
-Edit
+```
 npm run build
 npm run deploy
+```
 ✨ Features
 Fully responsive & mobile-ready
 
